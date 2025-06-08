@@ -38,22 +38,22 @@ const InfoSection = () => {
       title: "Estandares SCALED",
       text: "Estos son los estandares de la categoria scaled",
       details: [
-        "Coste: 15€ por equipo.",
-        "Método: BIZUM.",
-        "Número: 642 571 133.",
-        "Concepto: Nombre de tu equipo.",
-        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
+        "Barra: 30/20 snatch, 40/25 clean, 40/25 Shoulder to overhead",
+        "DB 15/10 Kg",
+        "Kb 16/12 Kg",
+        "WB 14/8 lb",
+        "Movimientos como: simples, shuttle run, burpees, step overs/ups"
       ]
     },
           {
       title: "Estandares RX",
-      text: "Estos son los estandares de la categoria scaled",
+      text: "Estos son los estandares de la categoria RX",
       details: [
-        "Coste: 15€ por equipo.",
-        "Método: BIZUM.",
-        "Número: 642 571 133.",
-        "Concepto: Nombre de tu equipo.",
-        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
+        "Barra: 43/25 snatch, 60/35 clean, 60/35 Shoulder to overhead",
+        "DB 22.5/15 Kg",
+        "Kb 24/16 Kg",
+        "WB 20/14 lb",
+        "Movimientos como: dobles, shuttle run, burpees, box jump overs"
       ]
     },
     {
