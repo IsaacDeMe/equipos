@@ -41,6 +41,8 @@ const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelect
                 <SelectItem value="todos" className="hover:bg-accent">Todos los boxes</SelectItem>
                 <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
                 <SelectItem value="Crossfit Torredembarra" className="hover:bg-accent">Crossfit Torredembarra</SelectItem>
+                <SelectItem value="LIFE Training" className="hover:bg-accent">LIFE Training Tarragona</SelectItem>
+
               </SelectContent>
             </Select>
           </div>

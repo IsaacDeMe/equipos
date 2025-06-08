@@ -72,6 +72,7 @@ const AdminPanel = ({ onCreateTeam }) => {
             <SelectContent className="bg-popover border-border text-foreground">
               <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
               <SelectItem value="Crossfit Torredembarra" className="hover:bg-accent">Crossfit Torredembarra</SelectItem>
+              <SelectItem value="LIFE Training" className="hover:bg-accent">Life Traininf Tarragona</SelectItem>
             </SelectContent>
           </Select>
         </div>

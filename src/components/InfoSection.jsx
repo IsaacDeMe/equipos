@@ -9,6 +9,14 @@ const InfoSection = () => {
       details: [
         "Do-Box fitness club: Aún por confirmar",
         "Crossfit Torredembarra: Aún por confirmar",
+        "LIFE Training Tarragona: Aún por confirmar",
+      ]
+    },
+        {
+      title: "Detalles del evento",
+       details: [
+        "El evento se realizara en un dia. Serán 4 eventos. Dos por la mañana y dos por la tarde",
+        "No habran premios, pero si trofeos y medallas para todo el mundo.",
       ]
     },
     {
@@ -18,6 +26,28 @@ const InfoSection = () => {
     {
       title: "Información de Pago",
       text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 15€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo.",
+      details: [
+        "Coste: 15€ por equipo.",
+        "Método: BIZUM.",
+        "Número: 642 571 133.",
+        "Concepto: Nombre de tu equipo.",
+        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
+      ]
+    },
+        {
+      title: "Estandares SCALED",
+      text: "Estos son los estandares de la categoria scaled",
+      details: [
+        "Coste: 15€ por equipo.",
+        "Método: BIZUM.",
+        "Número: 642 571 133.",
+        "Concepto: Nombre de tu equipo.",
+        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
+      ]
+    },
+          {
+      title: "Estandares RX",
+      text: "Estos son los estandares de la categoria scaled",
       details: [
         "Coste: 15€ por equipo.",
         "Método: BIZUM.",
