@@ -11,11 +11,12 @@ const InfoSection = () => {
         "La fecha del evento será el 9 de agosto",
         "Constará de 3 wods",
       ]
+
     },
     {
       title: "Formato de Equipos",
       text: "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica)",
-      text: 'El precio por equipos será de 24 euros con el pack de atleta normal'
+      text: 'El precio por equipos será de 24 euros con el pack de atleta normal',
     },
      {
       title: "Que lleva el pack de atleta",
@@ -32,9 +33,7 @@ const InfoSection = () => {
       title: "Premios",
       details: [
         "Trofeos de la competición",
-        "",
-        "",
-        "",
+
 
       ]
     },
@@ -43,22 +42,26 @@ const InfoSection = () => {
       title: "Estandares SCALED",
       text: "Estos son los estandares de la categoria scaled",
       details: [
-        "Barra: 30/20 snatch, 40/25 clean, 40/25 Shoulder to overhead",
+        "Barra: 30/20 snatch, 40/25 clean & Jerk",
         "DB 15/10 Kg",
         "Kb 16/12 Kg",
         "WB 14/8 lb",
-        "Movimientos como: simples, shuttle run, burpees, step overs/ups"
+        "Movimientos como: simples, shuttle run, burpees, step overs/ups",
+        "Gimnasticos: Ring Rows, Rodillas al pecho,",
+
       ]
     },
           {
       title: "Estandares RX",
       text: "Estos son los estandares de la categoria RX",
       details: [
-        "Barra: 43/25 snatch, 60/35 clean, 60/35 Shoulder to overhead",
+        "Barra: 43/25 snatch, 60/35  clean & Jerk",
         "DB 22.5/15 Kg",
         "Kb 24/16 Kg",
         "WB 20/14 lb",
-        "Movimientos como: dobles, shuttle run, burpees, box jump overs"
+        "Movimientos como: dobles, shuttle run, burpees, box jump overs",
+        "Gimnasticos: C2B, T2B,",
+
       ]
     },
      {
@@ -69,14 +72,23 @@ const InfoSection = () => {
         "Método: BIZUM.",
         "Número: 642 571 133.",
         "Concepto: Nombre de tu equipo.",
-        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
-      ]
+        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games. Por si os intersa, tendremos parada para reservar vuestra camiseta, aunque si quereis tenerla para el dia de la competición, corre! Reservala ya en el boton de abajo",
+        
+      ],
+      link: "https://isaacgames.es",
+      linkText: "Camiseta",
     },
     {
       title: "¿Te quieres apuntar?",
       text: "¡Genial! Haz clic en el enlace de abajo para acceder al formulario de inscripción. ¡No te quedes fuera!",
       link: "https://docs.google.com/forms/d/e/1FAIpQLSerN5IsY4LZSgX-4jktT5yNVFdWFhxMnbuVuIL2KMLw4Ft3Cw/viewform",
       linkText: "Formulario de Inscripción"
+    },
+      {
+      title: "¿No puedes competir, pero quieres colaborar?",
+      text: "Puedes hacerme un donativo, cualquier ayuda es bienvenida",
+      link: "https://gofund.me/91ae41ec",
+      linkText: "Gofundme"
     }
   ];
 
