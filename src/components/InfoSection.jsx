@@ -4,36 +4,41 @@ import { motion } from 'framer-motion';
 const InfoSection = () => {
   const infoItems = [
     {
-      title: "Fechas del Evento",
-      text: "Las fechas varían según el box. ¡Consulta con tu box para conocer la fecha exacta de la competición!",
-      details: [
-        "Do-Box fitness club: Aún por confirmar",
-        "Crossfit Torredembarra: Aún por confirmar",
-        "LIFE Training Tarragona: Aún por confirmar",
-      ]
-    },
-        {
       title: "Detalles del evento",
-       details: [
-        "El evento se realizara en un dia. Serán 4 eventos. Dos por la mañana y dos por la tarde",
-        "No habran premios, pero si trofeos y medallas para todo el mundo.",
+      text: "",
+      details: [
+        "El evento se realizara en Do-Box FC",
+        "La fecha del evento será el 9 de agosto",
+        "Constará de 3 wods",
       ]
     },
     {
       title: "Formato de Equipos",
-      text: "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica). ¡La estrategia y el compañerismo serán clave!",
+      text: "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica)",
+      text: 'El precio por equipos será de 25 euros con el pack de atleta normal'
     },
-    {
-      title: "Información de Pago",
-      text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 15€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo.",
+     {
+      title: "Que lleva el pack de atleta",
       details: [
-        "Coste: 15€ por equipo.",
-        "Método: BIZUM.",
-        "Número: 642 571 133.",
-        "Concepto: Nombre de tu equipo.",
-        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
+        "Una bolsita con el logo",
+        "Frutos secos",
+        "Un plátano",
+        "Una pegatina",
+        "Una medalla",
+
       ]
     },
+       {
+      title: "Premios",
+      details: [
+        "Trofeos de la competición",
+        "",
+        "",
+        "",
+
+      ]
+    },
+   
         {
       title: "Estandares SCALED",
       text: "Estos son los estandares de la categoria scaled",
@@ -54,6 +59,17 @@ const InfoSection = () => {
         "Kb 24/16 Kg",
         "WB 20/14 lb",
         "Movimientos como: dobles, shuttle run, burpees, box jump overs"
+      ]
+    },
+     {
+      title: "Información de Pago",
+      text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 25€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo. Solo se devolverá el dinero en caso de cancelamiento del evento.",
+      details: [
+        "Coste: 25€ por equipo.",
+        "Método: BIZUM.",
+        "Número: 642 571 133.",
+        "Concepto: Nombre de tu equipo.",
+        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games."
       ]
     },
     {

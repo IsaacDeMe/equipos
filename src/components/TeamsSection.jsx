@@ -32,16 +32,13 @@ const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelect
         
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div>
-            <Label className="text-muted-foreground mb-2 block font-semibold font-roboto">Box CrossFit</Label>
+            <Label className="text-muted-foreground mb-2 block font-semibold font-roboto">Competición</Label>
             <Select value={selectedBox} onValueChange={setSelectedBox}>
               <SelectTrigger className="bg-input border-border text-foreground focus:ring-radioactive-green">
                 <SelectValue placeholder="Selecciona un box" />
               </SelectTrigger>
               <SelectContent className="bg-popover border-border text-foreground">
-                <SelectItem value="todos" className="hover:bg-accent">Todos los boxes</SelectItem>
                 <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
-                <SelectItem value="Crossfit Torredembarra" className="hover:bg-accent">Crossfit Torredembarra</SelectItem>
-                <SelectItem value="LIFE Training" className="hover:bg-accent">LIFE Training Tarragona</SelectItem>
 
               </SelectContent>
             </Select>
@@ -91,7 +88,7 @@ const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelect
             <thead>
               <tr className="border-b border-border">
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Nombre del Equipo</th>
-                <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Box</th>
+                <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Competición</th>
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Categoría</th>
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Integrantes</th>
                 {isAdmin && <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider text-center">Acciones</th>}

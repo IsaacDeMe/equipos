@@ -64,15 +64,13 @@ const AdminPanel = ({ onCreateTeam }) => {
         </div>
         
         <div>
-          <Label className="text-muted-foreground mb-1 block font-roboto">Box CrossFit</Label>
+          <Label className="text-muted-foreground mb-1 block font-roboto">Competición</Label>
           <Select value={newTeam.box} onValueChange={(value) => setNewTeam({ ...newTeam, box: value })}>
             <SelectTrigger className="bg-input border-border text-foreground focus:ring-radioactive-green">
               <SelectValue placeholder="Selecciona box" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border text-foreground">
               <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
-              <SelectItem value="Crossfit Torredembarra" className="hover:bg-accent">Crossfit Torredembarra</SelectItem>
-              <SelectItem value="LIFE Training" className="hover:bg-accent">Life Traininf Tarragona</SelectItem>
             </SelectContent>
           </Select>
         </div>
