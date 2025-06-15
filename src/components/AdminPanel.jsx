@@ -10,7 +10,6 @@ import { useToast } from '@/components/ui/use-toast';
 const AdminPanel = ({ onCreateTeam }) => {
   const [newTeam, setNewTeam] = useState({
     name: '',
-    box: '',
     category: '',
     members: ['', '', '']
   });
@@ -23,7 +22,7 @@ const AdminPanel = ({ onCreateTeam }) => {
   };
 
   const handleCreateTeamSubmit = async () => {
-    if (!newTeam.name || !newTeam.box || !newTeam.category || newTeam.members.some(member => !member.trim())) {
+    if (!newTeam.name || !newTeam.category || newTeam.members.some(member => !member.trim())) {
       toast({
         title: "Error",
         description: "Por favor, completa todos los campos del equipo.",
@@ -33,11 +32,10 @@ const AdminPanel = ({ onCreateTeam }) => {
     }
     await onCreateTeam({
       name: newTeam.name,
-      box: newTeam.box,
       category: newTeam.category,
       members: newTeam.members.filter(member => member.trim())
     });
-    setNewTeam({ name: '', box: '', category: '', members: ['', '', ''] }); 
+    setNewTeam({ name: '', category: '', members: ['', '', ''] }); 
   };
 
   return (
@@ -51,29 +49,15 @@ const AdminPanel = ({ onCreateTeam }) => {
         <Plus className="w-6 h-6" />
         Crear Nuevo Equipo
       </h3>
-      
-      <div className="grid md:grid-cols-2 gap-4 mb-4">
-        <div>
-          <Label className="text-muted-foreground mb-1 block font-roboto">Nombre del Equipo</Label>
-          <Input
-            value={newTeam.name}
-            onChange={(e) => setNewTeam({ ...newTeam, name: e.target.value })}
-            className="bg-input border-border text-foreground focus:ring-radioactive-green"
-            placeholder="Nombre del equipo"
-          />
-        </div>
-        
-        <div>
-          <Label className="text-muted-foreground mb-1 block font-roboto">Competición</Label>
-          <Select value={newTeam.box} onValueChange={(value) => setNewTeam({ ...newTeam, box: value })}>
-            <SelectTrigger className="bg-input border-border text-foreground focus:ring-radioactive-green">
-              <SelectValue placeholder="Selecciona box" />
-            </SelectTrigger>
-            <SelectContent className="bg-popover border-border text-foreground">
-              <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
+
+      <div className="mb-4">
+        <Label className="text-muted-foreground mb-1 block font-roboto">Nombre del Equipo</Label>
+        <Input
+          value={newTeam.name}
+          onChange={(e) => setNewTeam({ ...newTeam, name: e.target.value })}
+          className="bg-input border-border text-foreground focus:ring-radioactive-green"
+          placeholder="Nombre del equipo"
+        />
       </div>
 
       <div className="mb-4">
