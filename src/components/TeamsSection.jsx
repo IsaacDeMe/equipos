@@ -74,7 +74,6 @@ const TeamsSection = ({ selectedCategory, setSelectedCategory, filteredTeams, is
             <thead>
               <tr className="border-b border-border">
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Nombre del Equipo</th>
-                <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Competición</th>
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Categoría</th>
                 <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider">Integrantes</th>
                 {isAdmin && <th className="p-3 font-permanent-marker text-sm text-muted-foreground uppercase tracking-wider text-center">Acciones</th>}
