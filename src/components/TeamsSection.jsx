@@ -17,7 +17,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-
 const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelectedCategory, filteredTeams, isAdmin, onCreateTeam, onDeleteTeam }) => {
   return (
     <motion.div
@@ -39,7 +38,6 @@ const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelect
               </SelectTrigger>
               <SelectContent className="bg-popover border-border text-foreground">
                 <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
-
               </SelectContent>
             </Select>
           </div>

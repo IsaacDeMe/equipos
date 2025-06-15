@@ -5,37 +5,42 @@ const InfoSection = () => {
   const infoItems = [
     {
       title: "Detalles del evento",
-      text: "",
       details: [
         "El evento se realizara en Do-Box FC",
         "La fecha del evento será el 9 de agosto",
         "Constará de 3 wods",
-      ]
+        "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica)",
+        'El precio por equipos será de 25 euros con el pack de atleta normal',
 
-    },
-    {
-      title: "Formato de Equipos",
-      text: "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica)",
-      text: 'El precio por equipos será de 24 euros con el pack de atleta normal',
-    },
-     {
-      title: "Que lleva el pack de atleta",
-      details: [
-        "Una bolsita con el logo",
+      ],
+      text: "¿Qué lleva el pack de atleta?",
+      details:[
+           "Una bolsita con el logo",
         "Frutos secos",
         "Un plátano",
         "Una pegatina",
         "Una medalla",
-
-      ]
+      ],
     },
        {
-      title: "Premios",
+      title: "Pagos y premios",
+      text: "Los premios de la competición seran:",
       details: [
-        "Trofeos de la competición",
-
-
-      ]
+        "Trofeos",
+      ],
+      text: "Información de Pago",
+      text: "Apunta a tu equipo respondiendo las preguntas del formulario.",
+      details: [
+        "Coste: 25€ por equipo.",
+        "Método: BIZUM.",
+        "Número: 633 20 79 05.",
+        "Concepto: Nombre de tu equipo.",
+        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games. ",
+        
+      ],
+      text: "Por si os intersa, tendremos parada para reservar vuestra camiseta, aunque si quereis tenerla para el dia de la competición, corre! Reservala ya en el boton de abajo",
+      link: "https://isaacgames.es",
+      linkText: "Camiseta",
     },
    
         {
@@ -63,20 +68,6 @@ const InfoSection = () => {
         "Gimnasticos: C2B, T2B,",
 
       ]
-    },
-     {
-      title: "Información de Pago",
-      text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 24€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo. Solo se devolverá el dinero en caso de cancelamiento del evento.",
-      details: [
-        "Coste: 24€ por equipo.",
-        "Método: BIZUM.",
-        "Número: 642 571 133.",
-        "Concepto: Nombre de tu equipo.",
-        "Todo lo recaudado será para ayudar a Isaac Delfa a competir en los CrossFit Games. Por si os intersa, tendremos parada para reservar vuestra camiseta, aunque si quereis tenerla para el dia de la competición, corre! Reservala ya en el boton de abajo",
-        
-      ],
-      link: "https://isaacgames.es",
-      linkText: "Camiseta",
     },
     {
       title: "¿Te quieres apuntar?",
