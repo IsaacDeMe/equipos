@@ -15,7 +15,7 @@ const InfoSection = () => {
     {
       title: "Formato de Equipos",
       text: "Equipos mixtos de 3 personas (2 Chicas + 1 Chico ó 2 Chicos + 1 Chica)",
-      text: 'El precio por equipos será de 25 euros con el pack de atleta normal'
+      text: 'El precio por equipos será de 24 euros con el pack de atleta normal'
     },
      {
       title: "Que lleva el pack de atleta",
@@ -63,9 +63,9 @@ const InfoSection = () => {
     },
      {
       title: "Información de Pago",
-      text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 25€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo. Solo se devolverá el dinero en caso de cancelamiento del evento.",
+      text: "Apunta a tu equipo respondiendo las preguntas del formulario. El pago de 24€ por equipo se realizará mediante BIZUM al número 642 571 133. En el concepto, por favor, indica el nombre de tu equipo. Solo se devolverá el dinero en caso de cancelamiento del evento.",
       details: [
-        "Coste: 25€ por equipo.",
+        "Coste: 24€ por equipo.",
         "Método: BIZUM.",
         "Número: 642 571 133.",
         "Concepto: Nombre de tu equipo.",
