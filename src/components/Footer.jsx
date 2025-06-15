@@ -27,7 +27,7 @@ const Footer = ({ onAdminLoginSuccess }) => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-              <span className="font-permanent-marker text-xl text-radioactive-green">Throwdown Solidario</span>
+              <span className="font-permanent-marker text-xl text-radioactive-green">WOD4DREAMS</span>
               <p className="text-sm mt-1 font-roboto">Diviértete por una buena causa</p>
             </div>
             

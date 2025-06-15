@@ -25,9 +25,9 @@ const Header = () => {
         >
           <p className="text-radioactive-green font-permanent-marker text-lg md:text-xl mb-2 tracking-wider">AYÚDAME A IR A GAMES</p>
           <h1 className="throwdown-title text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-4">
-            THROWDOWN<br />SOLIDARIO
+            WOD4DREAMS
           </h1>
-          <p className="text-gray-200 text-lg md:text-xl mb-6 font-roboto">Diviértete por una buena causa</p>
+          <p className="text-gray-200 text-lg md:text-xl mb-6 font-roboto">Diviértete por una buena causa, competición benéfica</p>
           <p className="text-gray-300 font-permanent-marker text-base md:text-lg tracking-wider mb-8">EQUIPOS DE 3 PERSONAS MIXTOS</p>
           <a href={inscriptionLink} target="_blank" rel="noopener noreferrer">
             <Button 

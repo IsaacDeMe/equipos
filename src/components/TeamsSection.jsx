@@ -17,7 +17,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelectedCategory, filteredTeams, isAdmin, onCreateTeam, onDeleteTeam }) => {
+const TeamsSection = ({ selectedCategory, setSelectedCategory, filteredTeams, isAdmin, onCreateTeam, onDeleteTeam }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -28,20 +28,8 @@ const TeamsSection = ({ selectedBox, setSelectedBox, selectedCategory, setSelect
         <h2 className="text-3xl md:text-4xl font-permanent-marker text-radioactive-green mb-8 text-center">
           Equipos Participantes
         </h2>
-        
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
-          <div>
-            <Label className="text-muted-foreground mb-2 block font-semibold font-roboto">Competición</Label>
-            <Select value={selectedBox} onValueChange={setSelectedBox}>
-              <SelectTrigger className="bg-input border-border text-foreground focus:ring-radioactive-green">
-                <SelectValue placeholder="Selecciona un box" />
-              </SelectTrigger>
-              <SelectContent className="bg-popover border-border text-foreground">
-                <SelectItem value="Do-Box fitness club" className="hover:bg-accent">Do-Box fitness club</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-          
           <div>
             <Label className="text-muted-foreground mb-2 block font-semibold font-roboto">Categoría</Label>
             <Select value={selectedCategory} onValueChange={setSelectedCategory}>
