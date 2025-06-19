@@ -27,7 +27,7 @@ const Header = () => {
           <h1 className="throwdown-title text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-4">
             WOD4DREAMS
           </h1>
-          <p className="text-gray-200 text-lg md:text-xl mb-6 font-roboto">Diviértete por una buena causa, competición benéfica</p>
+          <p className="text-gray-200 text-lg md:text-xl mb-6 font-roboto">Hola si llegaste a esta web decirte que por problemas personales esta competición al final no se realizará, perdonen las molestias</p>
           <p className="text-gray-300 font-permanent-marker text-base md:text-lg tracking-wider mb-8">EQUIPOS DE 3 PERSONAS MIXTOS</p>
           <a href={inscriptionLink} target="_blank" rel="noopener noreferrer">
             <Button 
@@ -35,7 +35,7 @@ const Header = () => {
               className="bg-radioactive-green text-black font-permanent-marker text-xl py-3 px-8 hover:bg-opacity-80 transition-colors shadow-lg hover:shadow-radioactive-green/50"
             >
               <Edit3 className="w-6 h-6 mr-3" />
-              Inscribirse Aquí
+              Inscribirse Aquí 
             </Button>
           </a>
         </motion.div>

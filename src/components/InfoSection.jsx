@@ -78,13 +78,13 @@ const InfoSection = () => {
     {
       title: "¿Te quieres apuntar?",
       text: "¡Genial! Haz clic en el enlace de abajo para acceder al formulario de inscripción. ¡No te quedes fuera!",
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSerN5IsY4LZSgX-4jktT5yNVFdWFhxMnbuVuIL2KMLw4Ft3Cw/viewform",
+      link: "#",
       linkText: "Formulario de Inscripción"
     },
       {
       title: "¿No puedes competir, pero quieres colaborar?",
       text: "Puedes comrparme una camiseta o hacerme un donativo, cualquier ayuda es bienvenida",
-      link: "https://gofund.me/91ae41ec",
+      link: "#",
       linkText: "Gofundme",
       link: "https://isaacgames.es",
       linkText: "Camiseta",
